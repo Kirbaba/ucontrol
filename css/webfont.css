@@ -1,9 +1,22 @@
 @font-face {
   font-family: "ETmodules";
-  src: url('ETmodules_v2_4.eot?#iefix') format('embedded-opentype'),  
-  url('../fonts/ETmodules_v2_4.woff') format('woff'), 
-  url('../fonts/ETmodules_v2_4.ttf')  format('truetype'), 
+  src: url('ETmodules_v2_4.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ETmodules_v2_4.woff') format('woff'),
+  url('../fonts/ETmodules_v2_4.ttf')  format('truetype'),
   url('../fonts/ETmodules_v2_4.svg#ETmodules_v2_4') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular",   "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  src: url('../fonts/Helvetica/HelveticaNeueCyrRoman.eot');
+  src: url('../fonts/Helvetica/HelveticaNeueCyrRoman.eot') format('embedded-opentype'),
+  url('../fonts/Helvetica/HelveticaNeueCyrRoman.woff2') format('woff2'),
+  url('../fonts/Helvetica/HelveticaNeueCyrRoman.woff') format('woff'),
+  url('../fonts/Helvetica/HelveticaNeueCyrRoman.ttf') format('truetype'),
+  url('../fonts/Helvetica/HelveticaNeueCyrRoman.svg#HelveticaNeueCyrThin') format('svg');
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;}
+body, input, textarea, select {font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;}
