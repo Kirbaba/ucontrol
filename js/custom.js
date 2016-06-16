@@ -32,6 +32,25 @@
 		$et_pb_first_row = $( 'body.et_pb_pagebuilder_layout .et_pb_section:first-child' );
 
 	$(document).ready( function(){
+
+$(window).scroll(function () {
+	if ( $( 'body' ).hasClass('scroll_header')) {
+
+			var $body = $( 'body' ),
+			$body_height = $( document ).height(),
+			$viewport_height = $( window ).height() + et_header_height + 200;
+			console.log(window.pageYOffset);
+			if (window.pageYOffset > 	250) {
+				$('#main-header').css( { 'transform': 'translateY(0)', 'opacity': '1' } );
+				$('#top-header').css( { 'transform': 'translateY(0)', 'opacity': '1' } );
+			} else {
+				$('#main-header').css( 'transform', 'translateY(-' + et_header_height +'px)' );
+			$('#top-header').css( 'transform', 'translateY(-' + et_header_height +'px)' );
+			}
+	 }
+ });
+
+
 		var $et_top_menu = $( 'ul.nav' ),
 			$et_search_icon = $( '#et_search_icon' ),
 			et_parent_menu_longpress_limit = 300,
