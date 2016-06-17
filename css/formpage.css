@@ -11,3 +11,13 @@
 .formpage-demo .et_pb_column_3 { padding-left:100px; }
 .formpage-demo .et_pb_section_1 { background-color:#d4dbe3; }
 .formpage-demo .et_pb_section_0 { background-color:#092545; }
+
+.impressum .et_pb_column_6 { padding-top:0; }
+.impressum .et_pb_column_5 {padding-top:0;}
+.impressum .et_pb_column_4 {padding-top:0;padding-bottom:0;}
+.impressum .et_pb_column_3 {padding-top:0;padding-bottom:0;}
+.impressum .et_pb_section_0 {background-color: #fafafa;}
+
+
+
+.datenschutz .et_pb_section_0 {background-color: #fafafa;}
